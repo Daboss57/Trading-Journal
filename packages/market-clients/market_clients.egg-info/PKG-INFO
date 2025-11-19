@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: market-clients
+Version: 0.1.0
+Summary: API clients for Finnhub, Alpha Vantage, CoinGecko, etc.
+Author: Trading Journal Team
+Requires-Python: >=3.12
+Requires-Dist: requests>=2.32.0
+Requires-Dist: yfinance>=0.2.50
+Provides-Extra: dev
+Requires-Dist: pytest>=8.3.0; extra == "dev"

@@ -1,0 +1,4 @@
+requests>=2.32.0
+pandas>=2.2.0
+yfinance>=0.2.50
+websockets>=12.0

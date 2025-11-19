@@ -1,0 +1,13 @@
+[project]
+name = "strategy-engine"
+version = "0.1.0"
+description = "Reusable vectorized backtest helpers"
+authors = [{ name = "Trading Journal Team" }]
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2.0",
+    "numpy>=2.1.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3.0"]

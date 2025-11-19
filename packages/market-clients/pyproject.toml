@@ -1,0 +1,13 @@
+[project]
+name = "market-clients"
+version = "0.1.0"
+description = "API clients for Finnhub, Alpha Vantage, CoinGecko, etc."
+authors = [{ name = "Trading Journal Team" }]
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.32.0",
+    "yfinance>=0.2.50"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3.0"]

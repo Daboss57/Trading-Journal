@@ -1,0 +1,6 @@
+pg_admin_username = "pgadmin"
+pg_admin_password = "REPLACE_ME"
+storage_account_name = "tjdevarchstorage"
+tenant_id = "00000000-0000-0000-0000-000000000000"
+key_vault_allowed_ips = ["0.0.0.0/0"]
+log_analytics_workspace_id = "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/example/providers/microsoft.operationalinsights/workspaces/example"

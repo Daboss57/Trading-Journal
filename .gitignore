@@ -1,0 +1,45 @@
+# General
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.mypy_cache/
+.pytest_cache/
+.venv/
+
+# Node/Next.js
+node_modules/
+**/node_modules/
+.pnpm-store/
+.pnp.*
+.npm/
+.next/
+.nuxt/
+.turbo/
+dist/
+out/
+coverage/
+.eslintcache
+.stylelintcache
+
+# Frontend build artifacts
+*.tsbuildinfo
+
+# Python build artifacts
+storage/**/*.parquet
+storage/**/*.tmp
+storage/**/*.feather
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Misc
+.env
+.env.*

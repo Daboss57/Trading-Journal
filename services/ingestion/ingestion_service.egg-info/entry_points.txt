@@ -1,0 +1,2 @@
+[console_scripts]
+ingestion-finnhub-ws = ingestion.main:run_cli

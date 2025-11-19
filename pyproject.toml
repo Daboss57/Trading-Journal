@@ -1,0 +1,13 @@
+[tool.uv.workspace]
+members = [
+  "apps/api-gateway",
+  "packages/market-clients",
+  "packages/strategy-engine",
+  "services/ingestion"
+]
+
+[tool.uv.sources]
+api-gateway = { workspace = true }
+market-clients = { workspace = true }
+strategy-engine = { workspace = true }
+ingestion-service = { workspace = true }

@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+ingestion/__init__.py
+ingestion/config.py
+ingestion/finnhub_ws.py
+ingestion/main.py
+ingestion/storage.py
+ingestion_service.egg-info/PKG-INFO
+ingestion_service.egg-info/SOURCES.txt
+ingestion_service.egg-info/dependency_links.txt
+ingestion_service.egg-info/entry_points.txt
+ingestion_service.egg-info/requires.txt
+ingestion_service.egg-info/top_level.txt

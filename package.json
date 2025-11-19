@@ -1,0 +1,10 @@
+{
+  "name": "trading-journal",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.9.0",
+  "scripts": {
+    "dev:frontend": "pnpm --filter @trading-journal/frontend dev",
+    "dev:api": "uv run --project apps/api-gateway uvicorn app.main:app --reload"
+  }
+}
